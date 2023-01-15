@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/mobile_navigation"
+    app:startDestination="@+id/nav_mesajGonder">
+
+    <fragment
+        android:id="@+id/nav_grupolustur"
+        android:name="com.berkaysevim.mymessageapp.grupOlustur.grupOlusturFragment"
+        android:label="Grup Olustur"
+        tools:layout="@layout/fragment_grup_olustur" />
+    <fragment
+        android:id="@+id/nav_grubaUyeEkle"
+        android:name="com.berkaysevim.mymessageapp.grubauyeekle.GrubaUyeEkleFragment"
+        android:label="Gruba Uye Ekle"
+        tools:layout="@layout/fragment_gruba_uye_ekle" />
+    <fragment
+        android:id="@+id/nav_mesajOlustur"
+        android:name="com.berkaysevim.mymessageapp.mesajolustur.MesajOlusturFragment"
+        android:label="Mesaj Olustur"
+        tools:layout="@layout/fragment_mesaj_olustur" />
+    <fragment
+        android:id="@+id/nav_mesajGonder"
+        android:name="com.berkaysevim.mymessageapp.grupOlustur.grupOlusturFragment"
+        android:label="Mesaj Gonder"
+        tools:layout="@layout/fragment_mesaj_gonder"/>
+</navigation>

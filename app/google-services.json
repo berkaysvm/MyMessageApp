@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "603659563459",
+    "project_id": "mymessageapplication-1caad",
+    "storage_bucket": "mymessageapplication-1caad.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:603659563459:android:036eec09e69fb7d39a0d76",
+        "android_client_info": {
+          "package_name": "com.berkaysevim.mymessageapp"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "603659563459-ohdkefb811nc3njsvnngde78r60lk8sa.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDGu_3BIIZCrMCX5ouhoM3cp65UlsX2_BM"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "603659563459-ohdkefb811nc3njsvnngde78r60lk8sa.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
